@@ -18,7 +18,6 @@ class TrackingHistoryAdmin(admin.ModelAdmin):
         "expense_type",
         "description",
         "created_at",
-        "display_age"
     ]
    
 
@@ -28,5 +27,5 @@ search_fields = ['expense_type', 'description']
 list_filter = ['expense_type']
 ordering = ['-expense_type']
 
-admin.site.register(TrackingHistory)
+admin.site.register(TrackingHistory,TrackingHistoryAdmin)
 admin.site.register(RequestLogs)
