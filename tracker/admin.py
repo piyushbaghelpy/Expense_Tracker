@@ -20,7 +20,7 @@ class TrackingHistoryAdmin(admin.ModelAdmin):
         "created_at",
         "display_age"
     ]
-    actions = [make_credit, make_debit] 
+   
 
 
 
