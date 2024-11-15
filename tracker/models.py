@@ -25,5 +25,5 @@ class RequestLogs(models.Model):
     request_method = models.CharField(max_length=100)
     created_at = models.DateTimeField(auto_now_add=True)
 
-    s=2
+    
     
